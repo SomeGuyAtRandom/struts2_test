@@ -6,12 +6,6 @@
 <struts>
 	<!-- example:  -->
 	<!--  <package name="person" extends="struts-default" namespace="/person" /> -->
-	
-	<package name="default" extends="struts-default">
-		<action name="getTutorial" class="la.random.struts2.actions.TutorialAction">
-			<result name="success">/success.jsp</result>
-			<result name="error">/error.jsp</result>
-		</action>
-	</package>
+	<include file="struts2-04.xml"/>
 	
 </struts>

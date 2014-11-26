@@ -10,7 +10,7 @@ public class TutorialAction {
 	// Required by Struts2
 	public String execute(){
 		System.out.println("TutorialAction.execute()");
-		return "error";
+		return "success";
 	}
 	
 
