@@ -11,7 +11,7 @@
 	<!-- http://<server>:<port>/<webapp>/<namespace>/<action>.action -->
 	<package name="default" namespace="/tutorials" extends="struts-default">
 		<action name="getTutorial" class="la.random.struts2.actions.TutorialAction">
-			<result name="random.la">/success.jsp</result>
+			<result name="success">/success.jsp</result>
 			<result name="error">/error.jsp</result>
 		</action>
 	</package>

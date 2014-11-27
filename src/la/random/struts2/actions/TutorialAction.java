@@ -10,13 +10,13 @@ public class TutorialAction {
 	// Required by Struts2
 	public String execute() {
 		System.out.println("param :" + param);
+		setTargetSite(param);
 		System.out.println("TutorialAction.execute()");
 		// Prime candidate for spring injection
 		TutroialService service = new TutroialService();
-		
-		setTargetSite(service.getRandomSite(param));
-		
-		return targetSite;
+		String result = service.getRandomSite(param);
+		System.out.println("targetSite" + getTargetSite());
+		return result;
 	}
 
 	// Required by Struts2

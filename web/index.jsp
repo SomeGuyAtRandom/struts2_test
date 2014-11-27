@@ -11,5 +11,8 @@
 <a href="tutorials/getTutorial.action">getTutorial.action</a> now returns blank<br/>
 <a href="tutorials/getTutorial.action?param=random.la">getTutorial.action?param=random.la</a><br/>
 <a href="tutorials/getTutorial.action?param=error">getTutorial.action?param=error</a><br/>
+<a href="tutorials/getTutorial.action?param=best">getTutorial.action?param=best</a><br/>
+
+<a href="user-form.jsp">user-form.jsp</a><br/>
 </body>
 </html>
