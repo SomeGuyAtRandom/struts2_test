@@ -8,6 +8,6 @@
 </head>
 <body>
 <h1>error.jsp</h1>
-<a href="index.jsp">home</a>
+<a href="/struts2_test/">home</a>
 </body>
 </html>

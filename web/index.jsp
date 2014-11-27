@@ -8,6 +8,8 @@
 </head>
 <body>
 <h1>index.jsp</h1>
-<a href="tutorials/getTutorial.action">getTutorial.action</a>
+<a href="tutorials/getTutorial.action">getTutorial.action</a> now returns blank<br/>
+<a href="tutorials/getTutorial.action?param=random.la">getTutorial.action?param=random.la</a><br/>
+<a href="tutorials/getTutorial.action?param=error">getTutorial.action?param=error</a><br/>
 </body>
 </html>

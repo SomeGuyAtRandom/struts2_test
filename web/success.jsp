@@ -12,6 +12,6 @@
 
 <h2><s:property value="targetSite"/></h2>
 
-<a href="index.jsp">home</a>
+<a href="/struts2_test/">home</a>
 </body>
 </html>
