@@ -5,13 +5,17 @@ import la.random.struts2.services.TutroialService;
 public class TutorialAction {
 
 	private String targetSite;
+	private String param;
 
 	// Required by Struts2
 	public String execute() {
+		System.out.println("param :" + param);
 		System.out.println("TutorialAction.execute()");
 		// Prime candidate for spring injection
 		TutroialService service = new TutroialService();
-		setTargetSite(service.getRandomSite());
+		
+		setTargetSite(service.getRandomSite(param));
+		
 		return targetSite;
 	}
 
@@ -31,6 +35,14 @@ public class TutorialAction {
 
 	public TutorialAction() {
 		System.out.println("TutorialAction()");
+	}
+	
+	public String getParam() {
+		return param;
+	}
+
+	public void setParam(String param) {
+		this.param = param;
 	}
 
 }
