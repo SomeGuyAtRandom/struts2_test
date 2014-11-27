@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>User Form Entry</title>
+<title>Struts Form Entry</title>
 </head>
 <body>
 <form method="post" action="tutorials/getTutorial">
