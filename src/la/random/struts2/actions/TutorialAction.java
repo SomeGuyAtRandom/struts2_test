@@ -1,5 +1,6 @@
 package la.random.struts2.actions;
 
+
 public class TutorialAction {
 	
 	
@@ -12,6 +13,5 @@ public class TutorialAction {
 		System.out.println("TutorialAction.execute()");
 		return "success";
 	}
-	
 
 }

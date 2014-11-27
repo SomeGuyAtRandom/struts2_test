@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Error Page</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h1>error.jsp</h1>
-<a href="index.jsp">home</a>
+<h1>index.jsp</h1>
+<a href="getTutorial.action">getTutorial.action</a>
 </body>
 </html>

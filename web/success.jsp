@@ -8,5 +8,6 @@
 </head>
 <body>
 <h1>success.jsp</h1>
+<a href="index.jsp">home</a>
 </body>
 </html>
