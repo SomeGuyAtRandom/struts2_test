@@ -8,6 +8,6 @@
 </head>
 <body>
 <h1>index.jsp</h1>
-<a href="getTutorial.action">getTutorial.action</a>
+<a href="tutorials/getTutorial.action">getTutorial.action</a>
 </body>
 </html>

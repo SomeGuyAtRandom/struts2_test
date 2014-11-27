@@ -6,6 +6,6 @@
 <struts>
 	<!-- example:  -->
 	<!--  <package name="person" extends="struts-default" namespace="/person" /> -->
-	<include file="struts2-05.xml"/>
+	<include file="struts2-06.xml"/>
 	
 </struts>
