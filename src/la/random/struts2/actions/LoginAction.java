@@ -1,6 +1,7 @@
 package la.random.struts2.actions;
 
 import la.random.struts2.services.LoginService;
+// Some change....
 
 public class LoginAction {
 
