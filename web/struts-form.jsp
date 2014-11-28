@@ -9,7 +9,7 @@
 </head>
 <body>
 <s:form action="tutorials/getTutorial">
-	<s:textfield key="param" />
+	<s:textfield label="param" key="param" />
 	<s:submit />
 </s:form>
 <a href="index.jsp">home</a><br/>

@@ -15,5 +15,6 @@
 
 <a href="user-form.jsp">user-form.jsp</a><br/>
 <a href="struts-form.jsp">struts-form.jsp</a><br/>
+<a href="login.jsp">login.jsp</a><br/>
 </body>
 </html>
