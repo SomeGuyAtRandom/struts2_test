@@ -1,22 +1,24 @@
 package la.random.struts2.actions;
 
+import com.opensymphony.xwork2.Action;
+
 import la.random.struts2.services.LoginService;
 // Some change....
 
-public class LoginAction {
+public class LoginAction implements Action{
 
 	private String user;
 	private String password;
 
 	public String execute() {
 		System.out.println("LoginAction.execute()");
-		String result = "fail";
+		String result = LOGIN;
+		
 
 		LoginService service = new LoginService(user, password);
 		if (service.isValid()) {
-			return "success";
+			return SUCCESS;
 		}
-
 		return result;
 	}
 
